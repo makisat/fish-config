@@ -45,6 +45,6 @@ function fish_tmux_fzf_session
 end
 
 # Ctrl-f binding
-bind \cc fish_tmux_fzf_session 
+bind \ch fish_tmux_fzf_session 
 # attach to session
 bind \ca tma
