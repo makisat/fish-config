@@ -12,7 +12,10 @@ if status is-interactive
 
     # --- path --- #
     # tmux
-    fish_add_path ~/.config/fish/scripts
+    fish_add_path /home/makisat/.config/fish/scripts
+    # go path
+    fish_add_path /home/makisat/go/bin
+
 end
 
 function fish_greeting
