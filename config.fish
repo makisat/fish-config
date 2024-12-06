@@ -5,6 +5,8 @@ if status is-interactive
     # --- aliases --- #
     # neovim
     alias vi="nvim"
+    # battery
+    alias bat="upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage"
 
     # --- setups --- #
     # Set up fzf key bindings
@@ -19,4 +21,7 @@ if status is-interactive
 end
 
 function fish_greeting
+    if test "$TERM" = "alacritty"
+        neofetch --ascii_distro OpenSUSE_small
+    end
 end
