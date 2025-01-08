@@ -15,8 +15,10 @@ if status is-interactive
     # --- path --- #
     # tmux
     fish_add_path /home/makisat/.config/fish/scripts
-    # go path
+    # go
     fish_add_path /home/makisat/go/bin
+    # doom
+    fish_add_path /home/makisat/.config/emacs/bin
 
 end
 
